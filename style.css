@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.moon{
+    background-image: url(moon.png);
+    width: 746px;
+    height: 540px;
+    margin-top: 82px;
+    margin-left: 217px;
+}
+
+.signup{
+    background-color: #071922;
+    width: 531px;
+    height: 621px;
+    margin-top: 141px;
+    margin-left: -266px;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.h1{
+    font-weight: 400;
+    font-size: 54px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 85.86px;
+    text-shadow: 12px 4px 11px rgba(0, 0, 0, 0.25);
+}
+.h2{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 92px;
+    text-align: center;
+    text-shadow: 12px 4px 11px rgba(0, 0, 0, 0.25); 
+    color: #ffffff;
+    margin-top: -60px;
+    margin-left: 40px;
+}
+.h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    margin-left: 58px;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(217, 217, 217, 0.56);
+}
+.input1{
+    cursor: pointer;
+    background-color: #d9d9d9;
+    background: rgba(217, 217, 217, 0.57);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.52);
+    border-radius: 100px;
+    width: 480px;
+    height: 59px;
+    margin-left: 29px;
+    font-size: 20px;
+    padding-left: 29px;
+    transition: .3s;
+}
+.input1:hover{
+    background-color: #d9d9d9b2;
+    width: 482px;
+}
+.h4{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    margin-left: 58px;
+    margin-top: 8px;
+}
+.button{
+    width: 206px;
+    height: 59px;
+    border-radius: 100px;
+    background-color: #DBD2CD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.52);
+    border-radius: 100px;
+    margin: 0;
+    margin-top: 44px;
+    align-items: center;
+    color: #0D3245;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 41.34px;
+    transition: .3s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #dbd2cdd5;
+    width: 210px;
+}
+.h5{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.54);
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.h5:hover{
+    color: rgba(255, 255, 255, 0.861);
+}
